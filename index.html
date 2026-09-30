@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f4f0e8">
+  <title>Andrew Castor | Engineering Portfolio</title>
+  <meta name="description" content="Mechanical engineering projects, technical interests, and leadership work by Andrew Castor, an engineering student at the University of Washington.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%232341a0'/%3E%3Cpath d='M15 47 30 17h5l15 30h-7l-4-8H25l-4 8zm13-15h8l-4-8z' fill='%23f4f0e8'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="site.js" defer></script>
+</head>
+<body class="home-page">
+  <header class="site-header">
+    <a class="brand" href="#top"><span class="brand-mark">AC</span><span>Andrew Castor</span></a>
+    <nav aria-label="Main navigation">
+      <a href="#projects">Case files</a>
+      <a href="fluid-laboratory.html">Fluid laboratory</a>
+      <a href="academic-plan.html">Academic plan</a>
+      <a href="#profile">Profile</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="header-resume" href="assets/Andrew_Castor_Resume.pdf" download="Andrew_Castor_Resume.pdf">Résumé <span>↓</span></a>
+  </header>
+
+  <main>
+    <section class="workbench chapter" id="top" data-chapter="Workbench">
+      <div class="map-instruction"><span>Interactive workbench</span> Select a specimen to inspect</div>
+
+      <article class="identity-card reveal">
+        <p class="eyebrow">University of Washington · Engineering</p>
+        <h1>Andrew<br>Castor</h1>
+        <p>I design, build, and test physical systems, with interests in mechanical design, fluid mechanics, and controls.</p>
+        <div class="identity-actions">
+          <a class="button" href="#projects">Browse the case files <span>↓</span></a>
+          <a class="text-link" href="mailto:ac777@uw.edu">Email Andrew ↗</a>
+        </div>
+        <a class="lab-launch" href="fluid-laboratory.html">
+          <span class="lab-launch-mark" aria-hidden="true"><i></i><i></i><i></i></span>
+          <span><small>LIVE COMPUTATIONAL EXPERIMENT</small><strong>Enter the Fluid Laboratory</strong></span>
+          <b aria-hidden="true">↗</b>
+        </a>
+        <div class="identity-footer"><span>Seattle, WA</span><span>Build → Test → Revise</span></div>
+      </article>
+
+      <button class="specimen specimen-a reveal" type="button"
+        data-inspect-title="Eagle Scout Project"
+        data-inspect-label="Leadership / Fabrication"
+        data-inspect-image="assets/photo-014.jpg"
+        data-inspect-alt="Completed wooden bench from Andrew's Eagle Scout project"
+        data-inspect-copy="Planned, funded, and led a volunteer build to replace two deteriorating benches for St. Paul’s Orthodox Church."
+        data-inspect-href="eagle-scout.html">
+        <span class="specimen-code">A–01</span><strong>LEAD</strong><small>Bench build</small>
+      </button>
+
+      <button class="specimen specimen-b reveal" type="button"
+        data-inspect-title="Battery Babysitter"
+        data-inspect-label="Electronics / Integration"
+        data-inspect-image="assets/photo-001.jpg"
+        data-inspect-alt="Portable battery charging system in a clear enclosure"
+        data-inspect-copy="A portable enclosure for two lithium-battery charging and status boards, built with a teammate for use at rocket launches."
+        data-inspect-href="battery-babysitter.html">
+        <span class="specimen-code">B–02</span><strong>POWER</strong><small>Field hardware</small>
+      </button>
+
+      <button class="specimen specimen-c reveal" type="button"
+        data-inspect-title="Proximity-controlled wing"
+        data-inspect-label="Controls / Prototype"
+        data-inspect-image="assets/rc-plane-worktable.png"
+        data-inspect-alt="Battery, components, and laptop on an engineering worktable"
+        data-inspect-copy="An Arduino, ultrasonic sensor, and servo translate hand distance into wing speed through a repeatedly revised cardboard mechanism."
+        data-inspect-href="#project-wing">
+        <span class="specimen-code">C–03</span><strong>MOTION</strong><small>Sensor control</small>
+      </button>
+
+      <button class="specimen specimen-d reveal" type="button"
+        data-inspect-title="Mass–spring system"
+        data-inspect-label="Modeling / Physics"
+        data-inspect-image="assets/spring-oscillation.png"
+        data-inspect-alt="Recorded oscillation graph from the mass-spring lab"
+        data-inspect-copy="Measured motion from five initial positions and compared the observations with differential-equation models of an underdamped system."
+        data-inspect-href="mass-spring.html">
+        <span class="specimen-code">D–04</span><strong>MODEL</strong><small>Oscillation data</small>
+      </button>
+
+      <button class="specimen specimen-e reveal" type="button"
+        data-inspect-title="Steam turbine"
+        data-inspect-label="Energy / Team lab"
+        data-inspect-image="assets/steam-iteration.jpg"
+        data-inspect-alt="Final turbine fan and support apparatus on a lab bench"
+        data-inspect-copy="A steam-driven fan that successfully spun, while limited measurements prevented a defensible efficiency calculation."
+        data-inspect-href="steam-turbine.html">
+        <span class="specimen-code">E–05</span><strong>FLOW</strong><small>Steam test</small>
+      </button>
+
+      <div class="map-coordinate coordinate-x" aria-hidden="true">X / PROTOTYPE</div>
+      <div class="map-coordinate coordinate-y" aria-hidden="true">Y / ANALYSIS</div>
+    </section>
+
+    <aside class="inspector" id="project-inspector" aria-hidden="true" aria-labelledby="inspector-title">
+      <button class="inspector-backdrop" type="button" tabindex="-1" aria-label="Close project inspector"></button>
+      <div class="inspector-panel" role="dialog" aria-modal="true">
+        <button class="inspector-close" type="button" aria-label="Close project inspector">×</button>
+        <p class="eyebrow" id="inspector-label">Project</p>
+        <h2 id="inspector-title">Project title</h2>
+        <figure><img id="inspector-image" src="assets/photo-014.jpg" alt=""><figcaption>Selected project evidence</figcaption></figure>
+        <p id="inspector-copy"></p>
+        <a class="button" id="inspector-link" href="#projects">Open case file <span>→</span></a>
+      </div>
+    </aside>
+
+    <section class="case-index chapter" id="projects" data-chapter="Case files">
+      <div class="wrap case-index-grid">
+        <div class="index-visual reveal">
+          <p class="eyebrow">Case files · 01—08</p>
+          <h2>Work worth<br>opening up.</h2>
+          <div class="index-preview">
+            <img id="index-preview-image" src="assets/photo-014.jpg" alt="Completed Eagle Scout bench">
+            <p><span>Previewing</span><strong id="index-preview-title">Eagle Scout Project</strong></p>
+          </div>
+          <p class="index-help">Hover, focus, or tap a row to preview it. Open the file for the full process and evidence.</p>
+        </div>
+
+        <div class="case-list reveal">
+          <a class="case-row active" href="eagle-scout.html" data-row-image="assets/photo-014.jpg" data-row-title="Eagle Scout Project" data-row-alt="Completed Eagle Scout bench">
+            <span class="case-number">01</span><span><small>Leadership · Fabrication</small><strong>Eagle Scout Project</strong></span><i>↗</i>
+          </a>
+          <a class="case-row" href="battery-babysitter.html" data-row-image="assets/photo-001.jpg" data-row-title="Battery Babysitter" data-row-alt="Portable battery charging enclosure">
+            <span class="case-number">02</span><span><small>Electronics · Integration</small><strong>Battery Babysitter</strong></span><i>↗</i>
+          </a>
+          <article class="case-row" id="project-wing" tabindex="0" data-row-image="assets/rc-plane-worktable.png" data-row-title="Proximity-controlled wing" data-row-alt="Components on an engineering worktable">
+            <span class="case-number">03</span><span><small>Controls · Prototype</small><strong>Proximity-controlled wing</strong></span><i>In progress</i>
+          </article>
+          <article class="case-row" tabindex="0" data-row-image="assets/rc-plane-worktable.png" data-row-title="Remote-control aircraft" data-row-alt="Aircraft components and laptop on a worktable">
+            <span class="case-number">04</span><span><small>Team build · Modeling</small><strong>Remote-control aircraft</strong></span><i>In progress</i>
+          </article>
+          <a class="case-row" href="mass-spring.html" data-row-image="assets/spring-oscillation.png" data-row-title="Mass–spring system" data-row-alt="Recorded mass-spring oscillation graph">
+            <span class="case-number">05</span><span><small>Physics · Differential equations</small><strong>Mass–spring system</strong></span><i>↗</i>
+          </a>
+          <a class="case-row" href="steam-turbine.html" data-row-image="assets/steam-iteration.jpg" data-row-title="Steam turbine" data-row-alt="Steam turbine test apparatus">
+            <span class="case-number">06</span><span><small>Energy · Team lab</small><strong>Steam turbine</strong></span><i>↗</i>
+          </a>
+          <a class="case-row" href="magnetic-boat.html" data-row-image="assets/magnetic-boat.jpg" data-row-title="Magnetic boat" data-row-alt="Magnet-equipped model boat in a test tub">
+            <span class="case-number">07</span><span><small>Electromagnetism · Team lab</small><strong>Magnetic boat</strong></span><i>↗</i>
+          </a>
+          <a class="case-row fluid-case-row" href="fluid-laboratory.html" data-row-image="assets/fluid-laboratory-preview.png" data-row-title="Spectral Flow Laboratory" data-row-alt="Three-dimensional water-flow paths in the spectral fluid simulator">
+            <span class="case-number">08</span><span><small>Fluid mechanics &middot; Numerical simulation</small><strong>Spectral Flow Laboratory</strong></span><i>Launch ↗</i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="profile-section chapter" id="profile" data-chapter="Profile">
+      <div class="wrap profile-grid">
+        <div class="profile-heading reveal"><p class="eyebrow">Profile</p><h2>Analysis belongs<br>next to the build.</h2></div>
+        <div class="profile-copy reveal">
+          <p class="profile-lede">I’m pursuing placement in mechanical engineering at the University of Washington, with an intended applied mathematics minor.</p>
+          <p>I’m especially interested in mechanical design, fluid mechanics, and controls. Earlier work includes engineering graphics and CAD study at Edmonds College, projects with its Rocketry Club, and hands-on leadership as an Eagle Scout.</p>
+          <div class="field-notes">
+            <details open><summary><span>NOTE 01</span>Build to expose constraints</summary><p>Physical prototypes reveal mounting, access, wiring, and motion problems that are easy to miss on paper.</p></details>
+            <details><summary><span>NOTE 02</span>Measure without overselling</summary><p>When a setup cannot support a reliable conclusion, that limitation belongs in the result.</p></details>
+            <details><summary><span>NOTE 03</span>Make decisions visible</summary><p>A good case study explains why the design changed, not only what the final object looks like.</p></details>
+          </div>
+          <a class="button button-paper" href="academic-plan.html">Open the academic plan <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact chapter" id="contact" data-chapter="Contact">
+      <div class="wrap contact-grid reveal">
+        <div><p class="eyebrow">Contact</p><h2>Let’s compare notes.</h2><p>I welcome conversations about research, engineering clubs, and internship opportunities.</p></div>
+        <div class="contact-links">
+          <a href="mailto:ac777@uw.edu"><span>School</span><strong>ac777@uw.edu</strong><i>↗</i></a>
+          <a href="mailto:castorandrew15@gmail.com"><span>Personal</span><strong>castorandrew15@gmail.com</strong><i>↗</i></a>
+          <a href="https://www.linkedin.com/in/andrew-castor-833236367/" target="_blank" rel="noopener noreferrer"><span>Network</span><strong>LinkedIn</strong><i>↗</i></a>
+          <a href="https://app.joinhandshake.com/profiles/q3zf2t" target="_blank" rel="noopener noreferrer"><span>Profile</span><strong>Handshake</strong><i>↗</i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Andrew Castor</span><a href="#top">Return to the workbench ↑</a></div></footer>
+</body>
+</html>

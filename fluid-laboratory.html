@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#08161b">
+  <meta name="description" content="Explore Andrew Castor's interactive three-dimensional spectral water-flow laboratory.">
+  <title>Spectral Flow Laboratory — Andrew Castor</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="fluid-lab.css">
+  <script src="site.js" defer></script>
+</head>
+<body class="fluid-page">
+  <header class="site-header">
+    <a class="brand" href="index.html#top"><span class="brand-mark">AC</span><span class="brand-rule"></span><span>Andrew Castor</span></a>
+    <nav aria-label="Main navigation"><a href="index.html#projects">Projects</a><a href="fluid-laboratory.html" aria-current="page">Fluid laboratory</a><a href="academic-plan.html">Academic plan</a><a href="index.html#contact">Contact</a></nav>
+  </header>
+  <main>
+    <section class="lab-hero wrap">
+      <div><a class="back-link" href="index.html#projects">← Portfolio</a><p class="eyebrow">FLUID MECHANICS · INTERACTIVE NUMERICAL MODEL</p><h1>Spectral Flow<br><em>Laboratory</em></h1></div>
+      <div class="lab-intro"><p>Explore incompressible water flow inside a periodic three-dimensional domain. Each seed selects a reproducible, divergence-free velocity field evolved with a Fourier pseudospectral Navier–Stokes solver.</p><div><span>Click</span> new flow <span>Drag</span> rotate <span>Enter</span> regenerate</div></div>
+    </section>
+    <section class="lab-frame-section" aria-label="Interactive spectral water-flow simulator">
+      <div class="lab-frame-header"><span><i></i> LIVE SIMULATION</span><a href="https://fluid.andrewcastor.com/" target="_blank" rel="noopener noreferrer">Open full screen ↗</a></div>
+      <iframe src="https://fluid.andrewcastor.com/?embed=1" title="Interactive 3D spectral water-flow simulator" allow="fullscreen"></iframe>
+      <noscript><p class="lab-fallback">JavaScript is required. <a href="https://fluid.andrewcastor.com/">Open the laboratory directly.</a></p></noscript>
+    </section>
+    <section class="lab-notes wrap">
+      <article><span>01</span><h2>Physical model</h2><p>Constant-property water at 20 °C, periodic boundaries, incompressible Navier–Stokes dynamics, and fixed 16³ performance resolution.</p></article>
+      <article><span>02</span><h2>Numerical method</h2><p>Fourier projection enforces zero divergence, 2/3 filtering controls aliasing, and fourth-order Runge–Kutta advances the field.</p></article>
+      <article><span>03</span><h2>Visual evidence</h2><p>Blue, cyan, and gold curves follow passive water tracers. Sparse vectors show instantaneous velocity direction and magnitude.</p></article>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© <span id="year">2026</span> Andrew Castor</span><a href="index.html#top">Return to the portfolio ↑</a></div></footer>
+</body>
+</html>
