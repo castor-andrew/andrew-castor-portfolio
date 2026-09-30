@@ -28,4 +28,8 @@ Then open `http://localhost:8000/`.
 
 ## Deployment
 
-This is a static site and can be deployed directly to Cloudflare Pages, GitHub Pages, Netlify, or another static host. See `DEPLOY_ANDREWCASTOR_COM.md` for the current custom-domain procedure.
+This repository is configured for GitHub Pages at `andrewcastor.com` via the
+root-level `CNAME` file. In GitHub, select **Settings → Pages → Deploy from a
+branch**, then choose `main` and `/ (root)`. After the generated
+`castor-andrew.github.io/andrew-castor-portfolio/` preview works, point the
+Namecheap root and `www` records to GitHub Pages and enable **Enforce HTTPS**.
