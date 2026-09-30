@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
-  <title id="title">Motion project image placeholder</title>
-  <desc id="desc">A technical blueprint-style placeholder for the proximity-controlled wing project.</desc>
+  <title id="title">Proximity-controlled alarm system</title>
+  <desc id="desc">A technical blueprint-style illustration of a proximity sensor connected to an alarm circuit.</desc>
   <defs>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none" stroke="#d7d7cf" stroke-width="1"/>
@@ -9,12 +9,17 @@
   <rect width="1200" height="800" fill="#f4f0e8"/>
   <rect width="1200" height="800" fill="url(#grid)"/>
   <rect x="48" y="48" width="1104" height="704" fill="none" stroke="#171918" stroke-width="3"/>
-  <path d="M320 430 600 315l280 115-280-42z" fill="#c9b9e8" stroke="#171918" stroke-width="6" stroke-linejoin="round"/>
-  <path d="M600 315v220m-82 0h164" fill="none" stroke="#171918" stroke-width="6"/>
-  <circle cx="600" cy="430" r="24" fill="#ef684e" stroke="#171918" stroke-width="6"/>
-  <path d="M210 430h74m632 0h74" stroke="#2341a0" stroke-width="6" stroke-dasharray="14 12"/>
-  <path d="m274 412 28 18-28 18m652-36-28 18 28 18" fill="none" stroke="#2341a0" stroke-width="6"/>
+  <rect x="350" y="285" width="500" height="270" rx="8" fill="#c9b9e8" stroke="#171918" stroke-width="6"/>
+  <rect x="405" y="340" width="170" height="120" fill="#f4f0e8" stroke="#171918" stroke-width="6"/>
+  <circle cx="452" cy="400" r="30" fill="#9fc8df" stroke="#171918" stroke-width="6"/>
+  <circle cx="528" cy="400" r="30" fill="#9fc8df" stroke="#171918" stroke-width="6"/>
+  <path d="M575 400h85v-52h73" fill="none" stroke="#171918" stroke-width="6"/>
+  <path d="M575 430h85v62h73" fill="none" stroke="#171918" stroke-width="6"/>
+  <circle cx="760" cy="348" r="28" fill="#ef684e" stroke="#171918" stroke-width="6"/>
+  <path d="M735 492h50m-42-18 34 36m0-36-34 36" stroke="#171918" stroke-width="6"/>
+  <path d="M275 365c-55 20-55 90 0 110m-52-145c-103 50-103 130 0 180" fill="none" stroke="#2341a0" stroke-width="6" stroke-dasharray="14 12"/>
+  <path d="M925 365c55 20 55 90 0 110m52-145c103 50 103 130 0 180" fill="none" stroke="#ef684e" stroke-width="6" stroke-dasharray="14 12"/>
   <text x="80" y="112" fill="#2341a0" font-family="Courier New, monospace" font-size="25" font-weight="700" letter-spacing="4">C–03 / MOTION</text>
-  <text x="600" y="630" fill="#18274a" font-family="Georgia, serif" font-size="52" text-anchor="middle">Project photography coming soon</text>
-  <text x="600" y="680" fill="#60635f" font-family="Courier New, monospace" font-size="20" text-anchor="middle" letter-spacing="3">PROXIMITY-CONTROLLED WING · IN PROGRESS</text>
+  <text x="600" y="630" fill="#18274a" font-family="Georgia, serif" font-size="52" text-anchor="middle">Proximity-controlled alarm system</text>
+  <text x="600" y="680" fill="#60635f" font-family="Courier New, monospace" font-size="20" text-anchor="middle" letter-spacing="3">ULTRASONIC SENSING · AUDIBLE ALERT · IN PROGRESS</text>
 </svg>
