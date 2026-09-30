@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">Motion project image placeholder</title>
+  <desc id="desc">A technical blueprint-style placeholder for the proximity-controlled wing project.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#d7d7cf" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="800" fill="#f4f0e8"/>
+  <rect width="1200" height="800" fill="url(#grid)"/>
+  <rect x="48" y="48" width="1104" height="704" fill="none" stroke="#171918" stroke-width="3"/>
+  <path d="M320 430 600 315l280 115-280-42z" fill="#c9b9e8" stroke="#171918" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M600 315v220m-82 0h164" fill="none" stroke="#171918" stroke-width="6"/>
+  <circle cx="600" cy="430" r="24" fill="#ef684e" stroke="#171918" stroke-width="6"/>
+  <path d="M210 430h74m632 0h74" stroke="#2341a0" stroke-width="6" stroke-dasharray="14 12"/>
+  <path d="m274 412 28 18-28 18m652-36-28 18 28 18" fill="none" stroke="#2341a0" stroke-width="6"/>
+  <text x="80" y="112" fill="#2341a0" font-family="Courier New, monospace" font-size="25" font-weight="700" letter-spacing="4">C–03 / MOTION</text>
+  <text x="600" y="630" fill="#18274a" font-family="Georgia, serif" font-size="52" text-anchor="middle">Project photography coming soon</text>
+  <text x="600" y="680" fill="#60635f" font-family="Courier New, monospace" font-size="20" text-anchor="middle" letter-spacing="3">PROXIMITY-CONTROLLED WING · IN PROGRESS</text>
+</svg>
